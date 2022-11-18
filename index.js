@@ -30,11 +30,11 @@ console.log('example task:', processFirstItem(['foo','bar'],function(str){return
   Study the code for counter1 and counter2, then answer the questions below.
   
   1. What is the difference between counter1 and counter2?
-  
+  the count in counter 1 will reset after each use while in counter 2 it will not.
   2. Which of the two uses a closure? How can you tell?
-  
+  counter2 uses closure. I can tell becuase it has to reach outside the function to operate.
   3. In what scenario would the counter1 code be preferable? In what scenario would 
-     counter2 be better?  
+     counter2 be better?  counter1 is preferable if you want to have your counter reset each time you invoke it while counter2 is preferable if you want the count to go on indefinetly, like McDonalds counting the number of burgers they have served.
 */
 
 // counter1 code
